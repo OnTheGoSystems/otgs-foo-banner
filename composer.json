@@ -8,6 +8,7 @@
     },
     "scripts": {
         "make-php-pot": "./vendor/bin/wp i18n make-pot . languages/php/otgs-fb.pot --include='plugin.php,php'",
-        "make-js-pot": "./vendor/bin/wp i18n make-pot . languages/js/otgs-fb.pot --include='js'"
+        "make-js-pot": "./vendor/bin/wp i18n make-pot . languages/js/otgs-fb.pot --include='js'",
+        "make-js-json": "./vendor/bin/wp i18n make-json languages/js --no-purge"
     }
 }
