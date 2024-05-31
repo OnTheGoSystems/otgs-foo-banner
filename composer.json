@@ -7,6 +7,7 @@
         "wp-cli/wp-cli-bundle": "^2.10"
     },
     "scripts": {
-        "make-php-pot": "./vendor/bin/wp i18n make-pot . languages/php/otgs-fb.pot --include='plugin.php,php'"
+        "make-php-pot": "./vendor/bin/wp i18n make-pot . languages/php/otgs-fb.pot --include='plugin.php,php'",
+        "make-js-pot": "./vendor/bin/wp i18n make-pot . languages/js/otgs-fb.pot --include='js'"
     }
 }
