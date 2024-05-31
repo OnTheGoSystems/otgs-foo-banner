@@ -91,5 +91,5 @@ function otgs_fb_get_options() {
 }
 
 add_action( 'admin_enqueue_scripts', function() {
-	wp_enqueue_script( 'otgs-fb-confirm', OTGS_FB_PLUGIN_URL . '/js/confirm.js' );
+	wp_enqueue_script( 'otgs-fb-confirm', OTGS_FB_PLUGIN_URL . '/js/confirm.js', [ 'wp-i18n' ] );
 } );
